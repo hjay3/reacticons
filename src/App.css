@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.icon {
+  font-size: 50px;
+  color: #f39c12;
+}
+
+.custom-icon {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.alarm {
+  color: red;
+}
+
+.favorite {
+  color: pink;
+}
+
+.combined-icon {
+  font-size: 40px;
+  margin: 10px;
+  color: #2ecc71;
+}
+
+.icon-default {
+  color: gray;
+  font-size: 50px;
+}
+
+.icon-favorite {
+  color: red;
+  font-size: 50px;
+}
+
+.icon-hover {
+  color: purple;
+  font-size: 50px;
+  transition: color 0.3s ease;
+}
+
+.icon-hover:hover {
+  color: orange;
+}
